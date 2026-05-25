@@ -1,113 +1,113 @@
 const songs = [{
     title:"Tanjiro no uta",
     artist:"Akano",
-    image:"gambar/tanjiro no uta.png",
-    audio:"audio/Kamado Tanjiro no UtaDemon Slayer_ Kimetsu no Yaiba (鬼滅の刃) [Demon Slayer ep 19 Ending Song].mp3"
+    image:"tanjiro no uta.png",
+    audio:"Kamado Tanjiro no UtaDemon Slayer_ Kimetsu no Yaiba (鬼滅の刃) [Demon Slayer ep 19 Ending Song].mp3"
 },
 
 {
     title:"ドキメキダイアリー",
     artist:"Pokemon Horizons,asmi",
-    image:"gambar/Dokimeki-Diary.jpg",
-    audio:"audio/Dokimeki Diary (asmi ft. Chinozo)  Pokémon Horizons OP  ROMENGJP Lyrics.mp3"
+    image:"Dokimeki-Diary.jpg",
+    audio:"Dokimeki Diary (asmi ft. Chinozo)  Pokémon Horizons OP  ROMENGJP Lyrics.mp3"
 },
  
 {
     title:"Only One Story",
     artist:"Zerobaseone",
-    image:"gambar/Only One Story.webp",
-    audio:"audio/only one zerobaseone.mp3"
+    image:"Only One Story.webp",
+    audio:"only one zerobaseone.mp3"
 },
 
 {
     title:"Koiiro",
     artist:"Mosawo",
-    image:"gambar/koiiro.png",
-    audio:"audio/Mosawo - Koiiro Lirik Terjemahan Indonesia もさを - 恋色.mp3",
+    image:"koiiro.png",
+    audio:"Mosawo - Koiiro Lirik Terjemahan Indonesia もさを - 恋色.mp3",
 },
 
 {
     title:"lulu",
     artist:"Mrs.GREEN APLE",
-    image:"gambar/lulu.webp",
-    audio:"audio/Mrs. GREEN APPLE「lulu.」Official Music Video [MjeiIal1ZR0].mp3"
+    image:"lulu.webp",
+    audio:"Mrs. GREEN APPLE「lulu.」Official Music Video [MjeiIal1ZR0].mp3"
 },
 
 {
     title:"Try Everything",
     artist:"Shakira",
-    image:"gambar/zootopia.jpg",
-    audio:"audio/Shakira - Try Everything (Official Video).mp3"
+    image:"zootopia.jpg",
+    audio:"Shakira - Try Everything (Official Video).mp3"
 },
 
 {
     title:"Zoo-From",
     artist:"Disney,Shakira",
-    image:"gambar/zo.jpg",
-    audio:"audio/Shakira - Zoo (From Zootopia 2).mp3"
+    image:"zo.jpg",
+    audio:"Shakira - Zoo (From Zootopia 2).mp3"
 },
 
 {
     title:"starlight",
     artist:"ultra Chotokkyu",
-    image:"gambar/starlight.jpg",
-    audio:"audio/STARLIGHT (Ultraman Ginga Ending) Lyrics.mp3"
+    image:"starlight.jpg",
+    audio:"STARLIGHT (Ultraman Ginga Ending) Lyrics.mp3"
 },
 
 {
     title:"あの夢をなぞって",
     artist:"YOASOBI",
-    image:"gambar/yoa.jpg",
-    audio:"audio/YOASOBIあの夢をなぞって Official Music Video.mp3"
+    image:"yoa.jpg",
+    audio:"YOASOBIあの夢をなぞって Official Music Video.mp3"
 },
 
 {
     title:"Kamado nezuko no uta",
     artist:"Akano",
-    image:"gambar/nezuko no uta.jpg",
-    audio:"audio/Kamado Nezuko no Uta (From Demon Slayer_ Kimetsu no Yaiba).mp3"
+    image:"nezuko no uta.jpg",
+    audio:"Kamado Nezuko no Uta (From Demon Slayer_ Kimetsu no Yaiba).mp3"
 },
 
 {
     title:"When Can I See You Again?",
     artist:"Owl City - Wreck-It Ralph",
-    image:"gambar/wreck it ralph.jpg",
-    audio:"audio/When Can I See You Again - Owl City HD (Wreck It Ralph Soundtrack).mp3"
+    image:"wreck it ralph.jpg",
+    audio:"When Can I See You Again - Owl City HD (Wreck It Ralph Soundtrack).mp3"
 },
 
 {
     title:"The Story of Us",
     artist:"Milet",
-    image:"gambar/The Story of Us.jpg",
-    audio:"audio/miletThe Story of UsMUSIC VIDEO (TVアニメ葬送のフリーレン第期エンディングテーマ).mp3"
+    image:"The Story of Us.jpg",
+    audio:"miletThe Story of UsMUSIC VIDEO (TVアニメ葬送のフリーレン第期エンディングテーマ).mp3"
 },
 
 {
     title:"Memories",
     artist:"Maki Otsuki",
-    image:"gambar/Memories (one piece).jpg",
-    audio:"audio/One Piece - Memories [AMV].mp3"
+    image:"Memories (one piece).jpg",
+    audio:"One Piece - Memories [AMV].mp3"
 },
 
 {
     title:"Shape of My Heart",
     artist:"Backstreet Boys",
-    image:"gambar/shape of my heart.jpg",
-    audio:"audio/Backstreet Boys - Shape of My Heart (Lyrics).mp3"
+    image:"shape of my heart.jpg",
+    audio:"Backstreet Boys - Shape of My Heart (Lyrics).mp3"
 },
 
 {
     title:"Your Letter",
     artist:"Lee Suhyun",
-    image:"gambar/your latter.jpg",
-    audio:"audio/Your Letter (연의 편지).mp3"
+    image:"your latter.jpg",
+    audio:"Your Letter (연의 편지).mp3"
 },
 
 {
     title:"The Fate of Ophelia",
     artist:"Taylor Swift",
-    image:"gambar/taylor swift.jpg",
-    audio:"audio/Taylor Swift - The Fate of Ophelia.mp3"
+    image:"taylor swift.jpg",
+    audio:"Taylor Swift - The Fate of Ophelia.mp3"
 },
 ];
 
@@ -298,7 +298,7 @@ closePlayer.addEventListener("click", () => {
     audio.pause();
     audio.currentTime = 0;
     audio.src = "";
-    playerImg.src = "gambar/music.webp";
+    playerImg.src = "music.webp";
     playerTitle.innerHTML = "pilih lagu";
     playerArtist.innerHTML = "favorit";
     playBtn.innerHTML = '<i class="fa-solid fa-play"></i>';
